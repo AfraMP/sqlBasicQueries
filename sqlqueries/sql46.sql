@@ -1,0 +1,1 @@
+select avg(comm) from salespeople where city = 'London';

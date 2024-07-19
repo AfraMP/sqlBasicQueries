@@ -1,0 +1,1 @@
+select * from orders where amt > (select avg(amt) from orders where odate = '1994-10-04')

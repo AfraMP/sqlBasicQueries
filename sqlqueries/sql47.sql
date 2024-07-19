@@ -1,0 +1,1 @@
+select snum, cnum from orders where cnum IN (select cnum from cust where city = 'London');

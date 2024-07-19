@@ -1,0 +1,1 @@
+select cname, a.sname, b.sname, c.sname from salespeople  a, salespeople as b, salespeople as c, cust where a.snum <> b.snum AND a.snum <> c.snum AND c.snum <> b.snum;

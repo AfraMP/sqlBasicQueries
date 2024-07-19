@@ -1,0 +1,1 @@
+SELECT cname FROM cust WHERE ISNULL(city)

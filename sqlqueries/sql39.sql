@@ -1,0 +1,1 @@
+select cname, city from cust where city IN (select distinct(cust.city) from cust, salespeople where cust.snum = salespeople.snum AND sname = 'Serres');

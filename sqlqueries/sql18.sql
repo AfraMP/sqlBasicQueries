@@ -1,0 +1,1 @@
+select COUNT(distinct(snum)) from orders;

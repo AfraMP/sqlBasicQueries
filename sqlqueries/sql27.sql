@@ -1,0 +1,1 @@
+select concat('For ',date_format(odate, '%d/%m/%y'), ' there are ', count(*) , ' Orders')  from orders group by odate;

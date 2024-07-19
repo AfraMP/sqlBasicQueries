@@ -1,0 +1,1 @@
+select odate, count(*) from orders group by odate order by count(onum) desc;

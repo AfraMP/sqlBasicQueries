@@ -1,0 +1,1 @@
+SELECT cname FROM cust WHERE rating > 100 OR (rating <= 100 AND city = 'Rome')

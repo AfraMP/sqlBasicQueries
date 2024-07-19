@@ -1,0 +1,1 @@
+select sname, amt * comm from cust, salespeople, orders where rating > 100 AND cust.cnum = orders.cnum AND salespeople.snum = cust.snum;

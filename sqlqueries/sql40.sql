@@ -1,0 +1,1 @@
+select cname, count(distinct(snum)) from cust group by cnum, cname having count(distinct(snum)) = 1;

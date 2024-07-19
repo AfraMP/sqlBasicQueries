@@ -1,0 +1,1 @@
+SELECT * FROM cust WHERE SUBSTR(cname, 1, 1) IN ('A', 'B')

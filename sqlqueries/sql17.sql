@@ -1,0 +1,1 @@
+select onum from orders where amt  <> 0 OR amt  !=NULL;

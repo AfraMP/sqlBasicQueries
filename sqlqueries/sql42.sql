@@ -1,0 +1,1 @@
+select cname, city from cust where rating = (select rating from cust where cname = 'Hoffman') AND cname <> 'Hoffman';

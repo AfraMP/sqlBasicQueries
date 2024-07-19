@@ -1,0 +1,1 @@
+select onum from orders where snum = (select snum from salespeople where sname = 'Motika');

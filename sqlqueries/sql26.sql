@@ -1,0 +1,1 @@
+select cname from cust where cname LIKE "G%";
